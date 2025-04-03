@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zielona Łódź – Przewodnik po Parkach</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text"> 🌳 Zielona Łódź</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">Główna</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./users.html" class="nav-link">Zarejestrowani użytkownicy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./stat.html" class="nav-link">Statystyki serwisu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Wyloguj się</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./profile.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Odkryj najpiękniejsze parki w Łodzi!</h2>
+                    <div class="login-image-wrapper">
+                        <img src="./images/park.png" alt="Zdjęcie parku" class="login-image">
+                    </div>
+                </div>
+  
+  
+
+        <section class="profile-edit-section">
+            <div class="profile-edit-container">
+                <h2 class="section-title">Edytuj swój profil</h2>
+                <form action="#" method="POST" class="profile-edit-form">
+                    <div class="form-group">
+                        <label for="first-name">Imię:</label>
+                        <input type="text" id="first-name" name="first-name" value="Jan" readonly class="edit-input">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="last-name">Nazwisko:</label>
+                        <input type="text" id="last-name" name="last-name" value="Kowalski" readonly class="edit-input">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" value="jan.kowalski@example.com" readonly class="edit-input">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="phone">Telefon:</label>
+                        <input type="tel" id="phone" name="phone" value="+48 123 456 789" readonly class="edit-input">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="profile-picture">Zdjęcie:</label>
+                        <input type="file" id="profile-picture" name="profile-picture" accept="image/*">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="bio">Notatka bio:</label>
+                        <textarea id="bio" name="bio" rows="4" readonly class="edit-input">Jestem pasjonatem parków i natury.</textarea>
+                    </div>
+    
+                    <button type="button" class="edit-button">Edytuj</button>
+                    <button type="button" class="save-button" style="display: none;">Zapisz</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

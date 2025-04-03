@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zielona Łódź – Przewodnik po Parkach</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text"> 🌳 Zielona Łódź</h2> </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="./index2.html" class="nav-link">Główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./users.html" class="nav-link">Zarejestrowani użytkownicy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./stat.html" class="nav-link">Statystyki serwisu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Wyloguj się</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./profile.html" class="nav-link">
+                            <i class="fas fa-user"></i> 
+                        </a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+
+        <main>
+            <section class="hero-section">
+            <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Odkryj najpiękniejsze parki w Łodzi!</h2>
+                <h3 class="subtitle">Witaj na stronie Zielona Łódź!</h3>
+                <p class="descriptions">Łódź to nie tylko fabryczne dziedzictwo, ale także mnóstwo pięknych, zielonych przestrzeni, które zachęcają do spacerów, relaksu i aktywnego wypoczynku. Chcesz podzielić się swoją opinią o ulubionym parku? A może szukasz idealnego miejsca na weekendowy spacer? Jesteś we właściwym miejscu! </p>
+
+                <div class="buttons">
+                    <a href="#opinions" class="button order-now">Odkryj nowe parki</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="./images/park.png" alt="" class="hero-image">
+            </div>
+            </div>
+        </section>
+        <section id="opinions" class="opinions-section">
+            <div class="opinion-box">
+                <input type="text" class="edit-title" value="Park Poniatowskiego" readonly>
+                <img src="./images/pon.jpg" alt="Park w Łodzi" class="opinion-image">
+                <textarea class="edit-text" readonly>"Piękne miejsce na spacer, szczególnie zimą!"</textarea>
+                <button class="edit-button">Edytuj</button>
+                <button class="save-button" style="display: none;">Zapisz</button>
+            </div>
+        
+            <div class="opinion-box">
+                <input type="text" class="edit-title" value="Park na Młynku" readonly>
+                <img src="./images/mlyn.jpg" alt="Park w Łodzi" class="opinion-image">
+                <textarea class="edit-text" readonly>"Świetne miejsce na ognisko"</textarea>
+                <button class="edit-button">Edytuj</button>
+                <button class="save-button" style="display: none;">Zapisz</button>
+            </div>
+        
+            <div class="opinion-box">
+                <input type="text" class="edit-title" value="Park Wolności" readonly>
+                <img src="./images/pab.jpg" alt="Park w Łodzi" class="opinion-image">
+                <textarea class="edit-text" readonly>"Bardzo zadbana zieleń i spokojna atmosfera."</textarea>
+                <button class="edit-button">Edytuj</button>
+                <button class="save-button" style="display: none;">Zapisz</button>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        
+        <footer>
+            <p>&copy; 2025 Zielona Łódź. Wszystkie prawa zastrzeżone.</p>
+        </footer>
+        </main>
+        </body>
+        </html>

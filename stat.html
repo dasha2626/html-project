@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zielona Łódź – Przewodnik po Parkach</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text"> 🌳 Zielona Łódź</h2> </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="./index2.html" class="nav-link">Główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./info.html" class="nav-link">Zarejestrowani użytkownicy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./stat.html" class="nav-link">Statystyki serwisu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Wyloguj się</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./profile.html" class="nav-link">
+                            <i class="fas fa-user"></i> 
+                        </a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Odkryj najpiękniejsze parki w Łodzi!</h2>
+                    <div class="login-image-wrapper">
+                        <img src="./images/park.png" alt="Zdjęcie parku" class="login-image">
+                    </div>
+                </div>
+                <section class="stats-section">
+                    <div class="stats-container">
+                        <h2 class="section-title">Statystyki serwisu</h2>
+                
+                        <div class="stats-grid">
+                            <div class="chart-box">
+                                <h3>📊 Udział użytkowników</h3>
+                                <canvas id="userChart"></canvas>
+                            </div>
+                            <div class="chart-box">
+                                <h3>📈 Aktywność serwisu</h3>
+                                <canvas id="activityChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+                
+                <!-- Dodanie Chart.js -->
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <script src="script.js"></script>
+                
+                
+                
+                <script src="script.js"></script>
+                
+        
+            
+                </main>
+                </body>
+                </html>
